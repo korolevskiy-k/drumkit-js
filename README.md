@@ -1,3 +1,3 @@
 # drumkit-js
-![home](img/drumkit.png)
-![home](img/drumkit.mp4)
+![home](img/Drum Kit.png)
+![home](img/Drum Kit.mp4)
