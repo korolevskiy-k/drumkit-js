@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <p>A</p>
+            <span class="sound">Hi-hat</span>
+        </div>
+        <div data-key="83" class="key">
+            <p>S</p>
+            <span class="sound">Closed hat</span>
+        </div>
+        <div data-key="68" class="key">
+            <p>D</p>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="70" class="key">
+            <p>F</p>
+            <span class="sound">Share</span>
+        </div>
+        <div data-key="71" class="key">
+            <p>G</p>
+            <span class="sound">ZIP</span>
+        </div>
+        
+    </div>
+
+    <audio data-key="65" class="key-65" src="/sounds/Chart Clap 01.wav"></audio>
+    <audio data-key="83" class="key-83" src="/sounds/Chart Closed Hat 01.wav"></audio>
+    <audio data-key="68" class="key-68" src="/sounds/Chart Kick 01.wav"></audio>
+    <audio data-key="70" class="key-70" src="/sounds/Chart Snare 01.wav"></audio>
+    <audio data-key="71" class="key-71" src="/sounds/Techno Zip.wav"></audio>
+    
+    <script src="/main.js"></script>
+</body>
+</html>
